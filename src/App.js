@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          CKN life projects
+          CKN life projects here
         </a>
       </header>
     </div>
