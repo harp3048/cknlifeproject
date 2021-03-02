@@ -37,7 +37,7 @@ class App extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
-                        This is a reactjs Project
+                        This is a CKN Project
                     </p>
                     <a
                         className="App-link"
