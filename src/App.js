@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import XXX from '../src/fingerprinttest';
 
-import Recaptcha from 'react-recaptcha';
+// import Recaptcha from 'react-recaptcha';
 import Message from './components/Message';
 
 class App extends Component {
