@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: 'AkayaKanadaka';
   src: local('AkayaKanadaka-Regular'), url(./fonts/AkayaKanadaka-Regular.ttf) format('truetype');
-}
+} */
 
 body {
   margin: 0;
@@ -16,8 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
 .test {
    font-family: 'Akaya Kanadaka', cursive;
    font-size: 48px;
-}
+} */
