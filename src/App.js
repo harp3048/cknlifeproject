@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import XXX from '../src/fingerprinttest';
 
-import Recaptcha from 'react-recaptcha';
+// import Recaptcha from 'react-recaptcha';
+import Message from './components/Message';
 
 class App extends Component {
     constructor(props) {
@@ -36,24 +37,7 @@ class App extends Component {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <p>
-                        This is a reactjs Project
-                    </p>
-                    <a
-                        className="App-link"
-                        href="https://ckn.life"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        CKN life projects here
-                    </a>
-                    {/* <button onClick={this.handleClick}>Click Here</button> */}
-                    {/* <Recaptcha
-                        sitekey="6LdDmOIUAAAAAPeD6DVRbo7-Y2EWFfFM_-iLfpwh"
-                        render="explicit"
-                        onloadCallback={this.recaptchaLoaded}
-                        verifyCallback={this.verifyCallback}
-                    /> */}
+                    <Message/>
                 </header>
             </div>
         );
