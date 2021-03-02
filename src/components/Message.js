@@ -1,10 +1,11 @@
 import React from 'react';
+import '../index.css';
 
 export default function Message() {
     
     return (
         <>
-            <p>
+            <p className='test'>
                 This is a new CKN Project
             </p>
             <a

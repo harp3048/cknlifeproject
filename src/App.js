@@ -38,14 +38,6 @@ class App extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <Message/>
-                    
-                    {/* <button onClick={this.handleClick}>Click Here</button> */}
-                    {/* <Recaptcha
-                        sitekey="6LdDmOIUAAAAAPeD6DVRbo7-Y2EWFfFM_-iLfpwh"
-                        render="explicit"
-                        onloadCallback={this.recaptchaLoaded}
-                        verifyCallback={this.verifyCallback}
-                    /> */}
                 </header>
             </div>
         );
